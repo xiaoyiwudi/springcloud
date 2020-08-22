@@ -10,6 +10,7 @@
     <modules>
         <module>01-eureka</module>
         <module>eurekaClientOne</module>
+        <module>eurekaClientSearch</module>
     </modules>
     <packaging>pom</packaging>
 

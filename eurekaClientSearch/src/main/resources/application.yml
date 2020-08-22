@@ -1,0 +1,13 @@
+server:
+  port: 8081      # 端口号
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@localhost:8761/eureka
+# 指定用户名和密码
+version: v1
+
+spring:
+  application:
+    name: WEBMASTER-${version}
